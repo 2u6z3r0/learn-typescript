@@ -43,7 +43,7 @@ interface Array<T> {
 }
 
 Array.prototype.myMap = function(callback:any) {
-    const arr = []
+    const arr:any = []
     for(let i= 0; i< this.length;i++) {
         console.log(`processing element at index ${i}`)
         arr.push(callback(this[i], i, this))
@@ -52,7 +52,7 @@ Array.prototype.myMap = function(callback:any) {
 }
 
 Array.prototype.myFilter = function(predicate: any) {
-    const arr = []
+    const arr:any = []
     for(let i=0; i< this.length; i++) {
         console.log(`checking value: ${this[i]}, index: ${i}`)
         if(!!predicate(this[i],i, this)) arr.push(this[i])
