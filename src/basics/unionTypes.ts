@@ -14,3 +14,5 @@ printId("A200");
 function getFirstThree(x: number[] | string) {
   return x.slice(0, 3);
 }
+
+const data: (number | string)[] = [2, 4, 1, "hi"];
