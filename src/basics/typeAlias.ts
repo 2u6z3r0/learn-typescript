@@ -22,3 +22,7 @@ type ID = number | string;
 
 // this is also valid
 type UserInputSanitizedString = string;
+
+// we can create aliasTypes using interface as well.
+// To see the difference between interface and type visit below link
+// https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces

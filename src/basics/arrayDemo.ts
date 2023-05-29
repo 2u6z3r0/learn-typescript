@@ -17,3 +17,7 @@ const matrix: number[][] = [
   [1, 2, 3],
   [4, 5, 6],
 ];
+
+// read only array
+const childrenNames: readonly string[] = ["Anna", "Gennie"];
+// childrenNames.push('Max') // typescript throws an error saying push is not available
