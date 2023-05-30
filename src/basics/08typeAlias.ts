@@ -2,6 +2,7 @@
 
 // https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases
 
+// we can create brand new type, it can be simple or complex
 type Point = {
   x: number;
   y: number;

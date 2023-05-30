@@ -13,7 +13,7 @@ function configure(x: Options | "auto") {
 }
 configure({ width: 100 });
 configure("auto");
-configure("automatic"); // throws an ts error
+// configure("automatic"); // throws an ts error
 
 function handleRequest(url: string, method: "GET" | "POST"): void {
   // some logic
